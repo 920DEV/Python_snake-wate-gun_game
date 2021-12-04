@@ -40,11 +40,11 @@ while No_of_chances<chance:          # If the" no_of_chances" will exceeds the "
         if computer_input=="s":
             player_points=player_points+1
             print(f"Player choose:{Player_input} and Computer choose: {computer_input}")
-            print("You won this round :-")
+            print("You loose this round :-")
         elif computer_input=="g":
             computer_points=computer_points+1
             print(f"Player choose:{Player_input} and Computer choose: {computer_input}")
-            print("You Loose this round")
+            print("You won this round")
     # when player choose put a wrong input
     else:
         print("you  put a wrong input:!")
